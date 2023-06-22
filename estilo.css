@@ -1,0 +1,111 @@
+body {
+    margin: 50px;
+
+}
+
+.chat {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+
+
+}
+
+.opcao {
+    position: absolute;
+    display: flex;
+    fill: white;
+    position: relative;
+
+}
+
+.opcao:hover {
+    cursor: progress;
+    fill: #00a884;
+}
+
+p {
+    font-size: 12px;
+    margin: 10px;
+}
+
+h2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+hr {
+    width: 100%;
+    border-style: dashed;
+    color: gray transparent;
+}
+
+.txt1,
+.txt2 {
+    background-color: #3b4a54;
+    ;
+    display: flex;
+    width: fit-content;
+    border-radius: 15px;
+    margin: 5px;
+    position: relative;
+}
+
+.txt1:hover .svgnvisto {
+    fill: #00a884;
+    cursor: pointer;
+}
+
+.txt2:hover:hover .svgnvisto {
+    fill: #00a884;
+    cursor: pointer;
+}
+
+.txt3,
+.txt4 {
+    background-color: #00a884;
+    display: flex;
+    width: fit-content;
+    border-radius: 15px;
+    margin: 5px;
+    margin-left: auto;
+    justify-content: flex-end;
+
+
+
+}
+
+.txt3:hover .svgvisto {
+    fill: #3b4a54;
+    cursor: pointer;
+
+}
+
+.txt4:hover:hover .svgvisto {
+    fill: #3b4a54;
+    cursor: pointer;
+
+}
+
+.svgvisto {
+    width: 8px;
+    fill: white;
+    display: flex;
+    position: relative;
+    top: 15px;
+    right: 5px;
+}
+
+.svgnvisto {
+    fill: blue;
+    width: 8px;
+    display: flex;
+    position: relative;
+    top: 15px;
+    right: 5px;
+}
